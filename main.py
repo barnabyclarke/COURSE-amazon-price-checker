@@ -27,7 +27,7 @@ if price < 400:
         connection.login(user=my_gmail, password=password)
         connection.sendmail(
             from_addr=my_gmail,
-            to_addrs="barnabyclarke@yahoo.co.uk",
+            to_addrs="x",
             msg=(f"Subject: Amazon Price Alert!\n\n"
                  f"{product_title} is now £{price}.\n"
                  f"{URL}").encode("utf-8")
